@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+/*font-family: 'Bree Serif', serif;
+*/
+
+
+*{
+    padding: 0;
+    margin:  0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../assets/fondito.svg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.fondo{
+    width: 450px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    flex-direction: column;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 63px;
+}
+.logo img{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.email{
+    margin-top: 0px ;
+}
+.pas{
+    margin-top: 20px;
+    
+}
+.email input{
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 30px;
+    background-color: rgb(39, 38, 38); 
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: white;
+    
+}
+.pas input{
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 30px;
+    background-color: rgb(39, 38, 38);
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: white;
+    
+    
+}
+
+.nn button{
+    width: 220px;
+    height: 50px;
+    background-color: rgb(226, 95, 19);
+    color: white;
+    border: rgb(82, 31, 31);
+    border-radius:30px ;
+    margin-top: 23px;
+    font-family: 'Bree Serif', serif;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 17px;
+    cursor: pointer;
+    box-shadow: 2px 6px 4px rgb(184, 76, 14);
+}
+::placeholder{
+    color: white;
+    font-size: 20px;
+}
+.main2 p{
+    margin-top: 35px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Bree Serif', serif;
+}.main2 a{
+    color: rgb(206, 37, 37);
+    margin-left: 15px;
+    
+}
+.nn button:hover{
+    background-color: rgb(247, 122, 51);
+    color:rgb(39, 38, 38)
+}

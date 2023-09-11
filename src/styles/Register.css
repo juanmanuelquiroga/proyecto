@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.register-container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../assets/fondito.svg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.fondo {
+  width: 450px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  flex-direction: column;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 63px;
+}
+
+.logo img {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.form-group {
+  margin-top: 20px;
+}
+
+.form-group input {
+  width: 400px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 30px;
+  background-color: rgb(39, 38, 38);
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: white;
+}
+
+.button-container {
+  margin-top: 23px;
+  display: flex;
+  justify-content: center;
+}
+
+.button-container button {
+  width: 220px;
+  height: 50px;
+  background-color: rgb(226, 95, 19);
+  color: white;
+  border: rgb(82, 31, 31);
+  border-radius: 30px;
+  font-family: 'Bree Serif', serif;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 17px;
+  cursor: pointer;
+  box-shadow: 2px 6px 4px rgb(184, 76, 14);
+}
+
+.button-container button:hover {
+  background-color: rgb(247, 122, 51);
+  color: rgb(39, 38, 38);
+}
+
+.error-message,
+.success-message {
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Bree Serif', serif;
+  border-radius: 30px;
+}
+
+.error-message {
+  color: red;
+  background-color: #ffc0c0;
+  
+}
+
+.success-message {
+  color: green;
+  background-color: #c0ffc0;
+}
+
+.main2 p {
+  margin-top: 35px;
+  color: white;
+  font-size: 20px;
+  font-family: 'Bree Serif', serif;
+}
+
+.main2 a {
+  color: rgb(206, 37, 37);
+  margin-left: 15px;
+}
